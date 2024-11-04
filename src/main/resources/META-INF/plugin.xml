@@ -1,0 +1,54 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>com.m7mdra.arbfmt</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Arbfmt</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+    Enter short description for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+  ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Arb Formatter" secondary="true" icon="/icon.svg" anchor="right"
+                    factoryClass="com.m7mdra.arbfmt.ArbFormatterToolWindowFactory"/>
+    </extensions>
+
+
+    <actions>
+        <!-- Add your actions here -->
+<!--        <action id="com.m7mdra.arbfmt.actions.FormatJsonAction"-->
+<!--                class="com.m7mdra.arbfmt.actions.FormatJsonAction"-->
+<!--                text="Format JSON Action"-->
+<!--                description="Format JSON in the editor."/>-->
+
+<!--        <action id="com.m7mdra.arbfmt.actions.MinifyJsonAction"-->
+<!--                class="com.m7mdra.arbfmt.actions.MinifyJsonAction"-->
+<!--                text="Minify Json"-->
+<!--                description="Minify Json in the editor."/>-->
+<!--        <action id="com.m7mdra.arbfmt.actions.CopyContentAction"-->
+<!--                class="com.m7mdra.arbfmt.actions.CopyContentAction"-->
+<!--                text="Copy Content In Editor"-->
+<!--                description="Copy content in editor."/>-->
+<!--        <action id="com.m7mdra.arbfmt.actions.VerifyJsonAction" -->
+<!--                class="com.m7mdra.arbfmt.actions.VerifyJsonAction"-->
+<!--                text="Verify Json" description="Verify json"/>-->
+<!--        <action id="com.m7mdra.arbfmt.actions.UnescapeStringAction"-->
+<!--                class="com.m7mdra.arbfmt.actions.UnescapeStringAction"-->
+<!--                text="Unescape String" description="Unescape string"/>-->
+<!--        <action id="com.m7mdra.arbfmt.actions.EscapeStringAction" -->
+<!--                class="com.m7mdra.arbfmt.actions.EscapeStringAction"-->
+<!--                text="Escape String" description="Escape string"/>-->
+    </actions>
+</idea-plugin>
