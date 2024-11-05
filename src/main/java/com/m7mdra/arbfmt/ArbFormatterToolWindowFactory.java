@@ -54,7 +54,7 @@ public class ArbFormatterToolWindowFactory implements ToolWindowFactory {
         copyContentAction.getTemplatePresentation().setText(CopyContentAction.ACTION_TEXT);
 
         VerifyJsonAction verifyJsonAction = new VerifyJsonAction(editorTextPanel);
-        verifyJsonAction.getTemplatePresentation().setIcon(AllIcons.Actions.SetDefault);
+        verifyJsonAction.getTemplatePresentation().setIcon(AllIcons.Actions.Checked);
         verifyJsonAction.getTemplatePresentation().setText(VerifyJsonAction.ACTION_TEXT);
 
         UnescapeStringAction unescapeStringAction = new UnescapeStringAction(editorTextPanel);

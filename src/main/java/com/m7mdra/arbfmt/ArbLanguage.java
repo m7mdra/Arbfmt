@@ -14,5 +14,4 @@ public class ArbLanguage extends Language {
     return true;
   }
 
-  public boolean hasPermissiveStrings() { return false; }
 }

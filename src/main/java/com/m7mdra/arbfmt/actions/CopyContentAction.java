@@ -23,7 +23,9 @@ public class CopyContentAction extends AnAction {
 
     private EditorTextPanel editorTextPanel;
 
-    public CopyContentAction() {}
+
+    public CopyContentAction() {
+    }
 
     public CopyContentAction(EditorTextPanel editorTextPanel) {
         this.editorTextPanel = editorTextPanel;

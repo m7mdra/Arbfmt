@@ -19,13 +19,7 @@ intellij {
 
     plugins.set(listOf(/* Plugin Dependencies */))
 }
-sourceSets {
-    main {
-        kotlin {
-            srcDirs("src/main/kotlin")
-        }
-    }
-}
+
 tasks {
     // Set the JVM compatibility versions
     withType<JavaCompile> {
